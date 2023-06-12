@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.fov{
+    padding-top: 20%;
+    padding-left: 50%;
+}
+   .fav {
+        outline: rgb(252, 180, 169) none 0px;
+        background: rgba(0, 0, 0, 0) url('wishlist-icon1.png') no-repeat scroll 0px 5px / auto padding-box border-box;
+        color: rgb(255, 255, 255);
+        text-transform: capitalize;
+        padding: 15px 10px 15px 50px;
+        float: left;
+        margin-right: 15px;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0px none rgb(207, 164, 157);
+        font-size: 14px;
+        transition: all 0.3s ease-in-out 0s;
+        border-radius: 30px;
+        border-color: rgb(207, 164, 157);
+        text-decoration: none solid rgb(252, 180, 169);
+        outline-offset: -2px;
+        display: block;
+        margin-bottom: 0px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        user-select: none;
+        font-family: Roboto, 'Noto Kufi Arabic';
+        box-sizing: border-box;
+        appearance: button;
+        overflow: visible;
+        margin: 0px 15px 0px 0px;
+    }
+    button:hover{
+        background: url("wishlist-icon1.png") no-repeat 0px -55px;
+    }
